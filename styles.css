@@ -57,7 +57,7 @@ nav > ul {
 .call-to-action {
   display: flex;
   justify-content: center;
-  margin-top: 40px;
+  margin: 40px 0 240px 0;
 }
 span {
   width: 60px;
@@ -67,6 +67,17 @@ span {
   animation: arrow 2s infinite;
   transform: rotate(45deg);
 }
+
+#after-hero {
+  display: flex;
+  justify-content: center;
+}
+
+.section {
+  width: 400px;
+  text-align: center;
+}
+
 
 @keyframes arrow {
 
